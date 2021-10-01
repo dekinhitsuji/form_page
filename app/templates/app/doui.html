@@ -1,0 +1,24 @@
+{% extends "app/base.html" %}
+{% load static %}
+
+{% block head %}
+<a class="navbar-brand" href="/">利用規約</a>
+{% endblock %}
+
+{% block main %}
+<h1>利用規約</h1>
+<div class="" style="border: 3px solid;">
+  <p>
+    同意書の内容<br>
+    ,,,,,,,,<br>
+    ,,,,,,,,<br>
+    ,,,,,,,,,<br>
+    hhhhhhhhh <br>
+    ...........<br>
+    ..........<br>
+  </p>
+</div>
+
+{{form}}
+<button onclick="location.href={% url 'app:kessai' %}"　class="btn btn-info">次へ</button>
+{% endblock %}
